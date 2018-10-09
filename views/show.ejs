@@ -7,13 +7,13 @@
     <title>Document</title>
 </head>
 <body>
-    <ul class='missions'>
-    <% for(let i = 0; i < mission.length; i++) {%>
-
-     <li><%= mission[i].name %></li>
-
-    <% } %>
-         
-    </ul>
+    
+    <p><%= mission.name %></p><br/>
+    <p><%= mission.launchDate %></p><br/>
+    <p><%= mission.operator %></p><br/>
+    <p><%= mission.missionType %></p><br/>
+    <p><%= mission.img %></p>
+    
+    
 </body>
 </html>
